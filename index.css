@@ -1,6 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("images/table.png");
+    background-image: url("images/blackjack.jpg");
     background-size: cover;
     font-weight: bold;
     color: white;
@@ -8,7 +8,12 @@ body {
 }
 
 h1 {
+    text-shadow: 0px 3px 0px black;
+    line-height: 24px;
+    transform: rotate(-9deg);
     color: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #message-el {
